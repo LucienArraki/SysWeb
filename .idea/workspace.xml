@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc14cb48-9a5a-49c6-b017-78e2df05c4af" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Imaginatorium.html" afterPath="$PROJECT_DIR$/Imaginatorium.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +20,13 @@
       <file leaf-file-name="Imaginatorium.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Imaginatorium.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#334#341#0" expanded="true" />
+                <element signature="e#356#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +52,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;/br&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;br/&gt;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,7 +80,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="905" />
   </component>
@@ -135,15 +146,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508392914379</updated>
-      <workItem from="1508392921189" duration="1135000" />
+      <workItem from="1508392921189" duration="2493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135000" />
+    <option name="totallyTimeSpent" value="2493000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="20" width="1400" height="905" extended-state="0" />
+    <frame x="260" y="22" width="1400" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -193,11 +204,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Imaginatorium.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="374">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#form#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#334#341#0" expanded="true" />
+            <element signature="e#356#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
