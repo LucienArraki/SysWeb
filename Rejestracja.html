@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Imaginatorium</title>
 </head>
 <body>
     <form action="o_nas.html"><input type="submit" value="O nas" style="float: right;"></form>
@@ -14,24 +14,32 @@
     <h1>
         Witaj na stronie rejestracji!
     </h1>
-    <form action ="/action_page.php">
+    <form action ="/action_page.php" autocomplete="on">
         Nazwa użytkownika:<br/>
-        <input type="text" name="username"/><br/>
+        <input type="text" name="username" placeholder="Nazwa użytkownika" required/><br/>
 
         <br/>Email:<br/>
-        <input type="email" name="email"/><br/>
+        <input type="email" name="email" placeholder="Email" required/><br/>
 
         <br/>Hasło:<br/>
-        <input type="password" name="psw"/><br/>
+        <input type="password" name="psw" placeholder="Haslo" required/><br/>
 
         <br/>Powtórz hasło:<br/>
-        <input type="password" name="psw"/><br/>
+        <input type="password" name="psw" placeholder="Haslo" required/><br/>
+		
+        <br/>Nr telefonu:<br/>
+        <input type="text" name="phone" pattern="[0-9]{6}" placeholder="Nr telefonu"/><br/>
+		
+        <br/>Adres twojego bloga:<br/>
+        <input type="url" name="blogURL" placeholder="Adres bloga"/><br/>
+		
         <br/>Podaj swoją datę urodzenia:<br/>
-        <input type="date"/><br/>
+		Dzień: <input list="Dni" name="dzien"><br/>
+		Miesiąc: <input list="Miesiace" name="miesiac"><br/>
+		Rok: <input list="Lata" name="rok"><br/>
+		
         <br/>Zaznacz swoją płeć:<br/>
-
         <input type="radio" name="gender" value="male" checked/> Mężczyzna <br/>
-
         <input type="radio" name="gender" value="female"/> Kobieta <br/>
 
 
@@ -44,4 +52,65 @@
     <p> <a href = " https://www.flickr.com/photos/96280707@N05/" >Link</a> </p>
 </center>
 </body>
+
+  <datalist id="Dni">
+    <option value="01">
+    <option value="02">
+    <option value="03">
+    <option value="04">
+    <option value="05">
+    <option value="06">
+    <option value="07">
+    <option value="08">
+    <option value="09">
+    <option value="10">
+    <option value="11">
+    <option value="12">
+    <option value="13">
+    <option value="14">
+    <option value="15">
+    <option value="16">
+    <option value="17">
+    <option value="18">
+    <option value="19">
+    <option value="20">
+    <option value="21">
+    <option value="22">
+    <option value="23">
+    <option value="24">
+    <option value="25">
+    <option value="26">
+    <option value="27">
+    <option value="28">
+    <option value="29">
+  </datalist>
+
+  <datalist id="Miesiace">
+    <option value="Styczeń">
+    <option value="Luty">
+    <option value="Marzec">
+    <option value="Kwiecień">
+    <option value="Maj">
+    <option value="Czerwiec">
+    <option value="Lipiec">
+    <option value="Sierpień">
+    <option value="Wrzesień">
+    <option value="Październik">
+    <option value="Listopad">
+    <option value="Grudzień">
+  </datalist>
+
+  <datalist id="Lata">
+    <option value="2000">
+    <option value="1999">
+    <option value="1998">
+    <option value="1997">
+    <option value="1996">
+    <option value="1995">
+    <option value="1994">
+    <option value="1993">
+    <option value="1992">
+    <option value="1991">
+    <option value="1990">
+  </datalist>  
 </html>
