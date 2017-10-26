@@ -1,3 +1,8 @@
 .center{
     text-align: center;
 }
+
+p{
+    color: darkgray;
+    font-size: 150%;
+}
