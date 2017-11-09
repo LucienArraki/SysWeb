@@ -5,7 +5,7 @@
 a{
     color: blue;
     text-shadow: 4px 4px #00ff82;
-
+}
 	
 p{
     color: darkgray;
@@ -14,16 +14,17 @@ p{
 }
 
 
+
  h1{
      text-shadow: 4px 4px #00ff82;
  }
 div{
     width: 300px;
-    height: 100px:
-    background-color; green;
-    box-shadow: 10px 10px 5px #888888
+    height: 100px;
+    background-color: green;
+    box-shadow: 10px 10px 5px #888888;
 }
 body{
     background-color: azure;
-    background-image: url("//c1.staticflickr.com/5/4469/23646460158_00aaf48fae_k.jpg")
+    background-image: url("//c1.staticflickr.com/5/4469/23646460158_00aaf48fae_k.jpg");
 }
