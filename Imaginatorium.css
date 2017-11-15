@@ -1,30 +1,64 @@
 .center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
     text-align: center;
 }
 
 a{
-    color: blue;
-    text-shadow: 4px 4px #00ff82;
+    color: white;
+    text-shadow: 2px 2px #00ff82;
+    font-size: 150%;
+    text-decoration: none;
+	position: relative;
 }
 	
-p{
+h1, p{
     color: darkgray;
+    font-size: 150%;
+}
+
+h1{
     font-size: 300%;
-    background-image: url("//c1.staticflickr.com/5/4469/23646460158_00aaf48fae_k.jpg")
 }
 
-
-
- h1{
-     text-shadow: 4px 4px #00ff82;
- }
-div{
-    width: 300px;
-    height: 100px;
-    background-color: green;
-    box-shadow: 10px 10px 5px #888888;
-}
 body{
-    background-color: azure;
-    background-image: url("//c1.staticflickr.com/5/4469/23646460158_00aaf48fae_k.jpg");
+	background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+}
+
+#name{
+	color: black;
+}
+
+details{
+	background-color: azure;
+}
+
+article{
+    font-variant: small-caps;
+}
+
+a:hover{
+    background-color: black;
+	color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
