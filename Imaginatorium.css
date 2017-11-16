@@ -4,18 +4,13 @@
     border: 3px solid green;
     text-align: center;
 	border-radius: 30px;
+	box-shadow: 10px 10px 5px white;
 	
     background-color: rgb(25,89,125);
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 10s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
 }
 
 /* Standard syntax */
@@ -29,11 +24,17 @@
     width: 50%;
     border: 5px solid green;
     text-align: center;
-	background:radial-gradient(circle at right, rgb(25,89,125) 0%, white 100%, rgb(25,89,125) 0%);
+	background:radial-gradient(circle at right, rgb(25,89,125), white 100%, rgb(25,89,125));
+}
+
+.classTab{
+	width:30%;
+	height:auto;
+	box-shadow: 10px 10px 5px white
 }
 
 details{
-	background:radial-gradient(circle at right, rgb(25,89,125) 0%, white 100%, rgb(25,89,125) 0%);	
+	background:radial-gradient(circle at right, rgb(25,89,125), white 100%, rgb(25,89,125));	
 }
 
 a{
@@ -56,8 +57,22 @@ p{
 	color: rgb(0,0,0);
 }
 
-body{
-	background: linear-gradient(to bottom, rgb(25,89,125) 0%, white 100%);
+@media screen and (min-width: 480px) {
+	body{
+		background: linear-gradient(to bottom, rgb(25,89,125) 0%, white 100%);
+	}
+	table{
+        width: 100%;
+	}
+}
+
+table{
+	table-layout: auto;
+}
+
+img{
+    max-width: 300%;
+    max-height: 300%;
 }
 
 #name{
@@ -74,6 +89,7 @@ details{
 
 article{
     font-variant: small-caps;
+	font-family: 'PT Sans Narrow', sans-serif;
 }
 
 a:hover{

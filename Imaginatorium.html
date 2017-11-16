@@ -8,12 +8,22 @@
     <style>
 		h1{
 			text-shadow: 0px 4px #00ff82;
+
 		}
 		div{
-			width: 300px;
-			height: 100px:
+			width:100%;
+			height:auto;
 			background-color; green;
-			box-shadow: 10px 10px 5px white
+		}
+		
+		.flex-container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.flex-container>div {
+			margin: 15px;
+			text-align: center;
 		}
 	</style>
 </head>
@@ -30,9 +40,8 @@
 	<hr><hr>
     
 
-    <table>
-    <tr style="width:30%;">
-        <td style="width:10%;">
+    <div class="flex-container">
+		<div class="classTab">
             <img src="https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_280,q_64,w_560/v1/clients/norway/bryggen_wharf_in_bergen_norway_2_1_cf2fbd46-e9f6-4ae0-a3b7-50a4655f8788.jpg" alt="Nie dziala ;<" style="width:100%;"> <br/>
             <div class="tabCenter">
 			
@@ -49,9 +58,9 @@
             <br/>
 			
             </div>
-        </td>
-        <td style="width:10%;">
-            <img src="http://fjordtours.blob.core.windows.net/fjordtours-umbraco/4758/norway_in_a_nutshell_paal_audestad_fjordtours_com_.jpg" alt="Nie dziala ;<" style="width:100%;"><br/>
+		</div>
+		<div class="classTab">
+                <img src="http://fjordtours.blob.core.windows.net/fjordtours-umbraco/4758/norway_in_a_nutshell_paal_audestad_fjordtours_com_.jpg" alt="Nie dziala ;<" style="width:100%;"><br/>
 			<div class="tabCenter">
 			
 			<details>
@@ -67,8 +76,8 @@
             <br/>
 			
 			</div>
-        </td>
-        <td style="width:10%;">
+        </div>
+        <div class="classTab">
             <img src="https://www.kiribaticlub.pl/zdjecia-dodatkowe/14598534044313.jpg" alt="Nie dziala ;<" style="width:100%;"><br/>
 			<div class="tabCenter">
 			
@@ -85,9 +94,8 @@
             <br/>
 			
 			</div>
-        </td>
-    </tr>
-    <tr style="width:30%;">
+        </div>
+    <div class="classTab">
         <td style="width:10%;">
             <img src="http://johnsharpephotography.com/tempblog/wp-content/uploads/2010/07/ItalyVeniceDay2270.jpg" alt="Nie dziala ;<" style="width:100%;"><br/>
 			<div class="tabCenter">
@@ -105,12 +113,7 @@
             <br/>
 			
 			</div>
-		</td>
-		<td>
-		</td>
-		<td>
-		</td>
-	</tr>
-    </table>
+	</div>
+    </div>
 
 </body>
