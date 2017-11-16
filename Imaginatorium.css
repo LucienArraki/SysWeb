@@ -3,6 +3,37 @@
     width: 50%;
     border: 3px solid green;
     text-align: center;
+	border-radius: 30px;
+	
+    background-color: rgb(25,89,125);
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: gold;}
+    to {background-color: rgb(25,89,125);}
+}
+
+.tabCenter{
+    margin: auto;
+    width: 50%;
+    border: 5px solid green;
+    text-align: center;
+	background:radial-gradient(circle at right, rgb(25,89,125) 0%, white 100%, rgb(25,89,125) 0%);
+}
+
+details{
+	background:radial-gradient(circle at right, rgb(25,89,125) 0%, white 100%, rgb(25,89,125) 0%);	
 }
 
 a{
@@ -14,20 +45,27 @@ a{
 }
 	
 h1, p{
-    color: darkgray;
-    font-size: 150%;
+    color: white;
+    font-size: 300%;
+	text-align:center;
 }
 
-h1{
-    font-size: 300%;
+
+p{
+    font-size: 150%;
+	color: rgb(0,0,0);
 }
 
 body{
-	background-image: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+	background: linear-gradient(to bottom, rgb(25,89,125) 0%, white 100%);
 }
 
 #name{
 	color: black;
+	    /* Rotate div */
+    -ms-transform: rotate(9deg); /* IE 9 */
+    -webkit-transform: rotate(9deg); /* Chrome, Safari, Opera */
+    transform: rotate(9deg);
 }
 
 details{
